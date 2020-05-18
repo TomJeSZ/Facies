@@ -19,14 +19,25 @@ Być może wymagania te spełnia nowy system społecznościowy związany ze spo�
 
 https://pocketnet.app/about
 
+TECHNIKALIA
+-----------
+
+**git submodule add https://github.com/borkowsk/fasada-core.git
+
 
 WAŻNE LINKI
----------------------
+-----------
 
-Link do grupy na Facebooku: https://www.facebook.com/groups/141043869907657/permalink/141998329812211/
+Link do strony projektu Fasada, który ma byc szkieletem technologicznym dla implementacji Facies: 
 
-Link do strony projektu Fasada, który byłby szkieletem technologicznym dla implementacji Facies: https://sites.google.com/view/fasada-cpp/
+https://sites.google.com/view/fasada-cpp/
 
-Link do "społeczności" na G+: https://plus.google.com/communities/107225354537883894305 (obsolete)
+Link do grupy na Facebooku: 
+
+https://www.facebook.com/groups/141043869907657/permalink/141998329812211/
+
+Link do "społeczności" na G+: 
+
+https://plus.google.com/communities/107225354537883894305 (obsolete)
 
 
