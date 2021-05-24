@@ -34,7 +34,7 @@ https://www.tysol.pl/a35304-Krysztopa-Glupie-panstwa-w-koncu-zostaniecie-skorupk
 6) OTWARTE OCENY - oceny użytkowników dotyczące innych użytkowników są publiczną informacją, z której każdy może korzystać, ale nie musi. Może też podobnie jak w przypadku innych komunikatów w pełni określić swoje preferencje - ocenom jakich grup ufa i bierze je pod uwagę, a które ignoruje.
 7) NIEOGRANICZONY PRZEPŁYW ZASOBÓW SPOŁECZNOŚCIOWYCH - przynajmniej jednokierunkowe spięcie systemu z istniejącymi portalami społecznościowymi - to co użytkownik pisze na Facebooku, Twitterze, LinkedIn, ResearchGate etc. może być także automatycznie udostępniane za pośrednictwem systemu. Także komentarze w tych systemach są śledzone i linkowane do postu. Zapis postów w jednolitym otwartym kodzie (JSON lub alternatywnie XML) może z czasem służyć wypromowaniu standardu wymiany informacji między portalami społecznościowymi, co pozwoli na włączenie starszych sieci społecznościowych do systemu na równych zasadach. 
 
-## Władza użytkowika nad swoimi zasobami
+## Władza użytkownika nad swoimi zasobami
 
 1) Każdy użytkownik ma swój adres - identyfikator światowy, stąd książki znajomych są jak książki adresowe e-mail własnością użytkownika, a nie portalu, z którego on korzysta
 2) Użytkownik może zarządzać i przechowywać swoje zasoby społecznościowe na własnym serwerze, lub w chmurze, oraz na dowolnej liczbie serwerów dostarczanych przez dostawców usługi
@@ -88,9 +88,7 @@ Jak sobie z tym poradzić?
   - https://pleroma.social/#featured-instances - publiczne instancje pleromy
 
 * Fediwersum (zlepek słów federacja i uniwersum) – nieformalna nazwa federacji serwisów mikroblogowych korzystających z ustandardyzowanego protokołu OStatus lub ActivityPub. Działają one niezależnie od siebie, lecz pozwalają na interakcję pomiędzy użytkownikami innych serwerów[1].
-
 Fediwersum jest oparte na wolnym oprogramowaniu. Większość jego członków to serwisy wzorowane na Twitterze, lecz niektóre, o większej funkcjonalności, są zbliżone do Facebooka lub Google+ ( https://pl.wikipedia.org/wiki/Fediwersum )
-
 Do oprogramowania serwisów społecznościowych mogącego łączyć się z Fediwersum należą:
   - Diaspora
   - Friendica (dawniej Mistpark)
