@@ -4,7 +4,7 @@ Facies P2P social network (top level README)
 ================================================================
 #opensocialmedia #peer2peer #opensource #pgp #free #freedom #openaccess #privacy #ownership
 
-##Założenia systemu (nazwa robocza projektu: "Facies")
+## Założenia systemu (nazwa robocza projektu: "Facies")
 
 1) PEER TO PEER - czyli żadnych centralnych serwerów, nawet lokalnych jak w przypadku *Diaspory. Za całość działania systemu odpowiada aplikacja kliento-serwera działająca na komputerze lub telefonie/tablecie użytkownika.
 2) OPEN SOURCE - cały kod jest jawny i zarządzany przez społeczność programistów. Używane są tylko otwarte standardy: HTML, XML i standardowe, niezależne od konkretnych firm i patentów języki programowania: C/C++ , ewentualnie JAVA (z przyczyn praktycznych - aplikacje C++ na Androida mogą sprawiać problemy użytkownikom)
@@ -26,9 +26,36 @@ Takimi tagami może być np. #TECHNOLOGIA czy #HISTORIA czy #POLSKA, ale też #O
 
 https://www.facebook.com/groups/141043869907657/permalink/615293175816055/
 
-## POMYSŁY
+## Tło problemu
 
-Klasyczne aplikacje społecznościowe, z których dominującą jest oczywiście Facebook mają jedną poważną wadę - zależne są od firmowych serwerów, a to oznacza że:
+Co we współczesnym świecie decyduje o jego kształcie? 
+
+Oczywiście informacja. A ta w coraz mniejszym stopniu przepływa przez takie kanały jak papierowa prasa, radio, a nawet telewizja. 
+
+* Jedynym istotnym kanałem, w jakim będzie się to odbywało, jakkolwiek, ani prasa ani telewizja nie znikną, będzie internet. 
+
+* A najszerszym kanałem internetu będą media społecznościowe. 
+
+* Zdobyły sobie zasięgi upewniając użytkowników w przekonaniu, że są obiektywnymi narzędziami, jak firmy telekomunikacyjne. Tyle że po tym, jak namówiły miliardy osób do założenia sobie telefonów, 
+
+* zaczęły wyłączać rozmowy tym, których treści rozmów im się z powodów ideologicznych nie podobają, 
+
+* a samą treść, z czego nie wszyscy zdają sobie sprawę, uznały za swoją własność. 
+
+I tak scenariusz powieści Orwella "1984" zaczął stawać się rzeczywistością. 
+
+https://www.tysol.pl/a35304-Krysztopa-Glupie-panstwa-w-koncu-zostaniecie-skorupkami-wypelnionymi-trescia-FB-Google-i-TT
+
+## Problem fragmentacji przestrzeni IP
+
+Poważnym ograniczeniem technicznym dla systemu społecznościowego peer2peer jest aktualna architektura adresowa internetu używająca NAT (network address translation) zaprojektowana pod kątem aplikacji klient-serwer.
+Istnieją co prawda techniki obchodzenia tych zabezpieczeń, ale skuteczne najwyżej w 80% systemów i kłopotliwe - wymagają serwerów pośredniczących w  nawiązywaniu połączenia dostępnych w głównej przestrzeni adresowej i jednoczesnej aktywności klientów na tym samym serwerze.
+https://bford.info/pub/net/p2pnat/
+
+
+## RÓŻNE POMYSŁY
+
+* Klasyczne aplikacje społecznościowe, z których dominującą jest oczywiście Facebook mają jedną poważną wadę - zależne są od firmowych serwerów, a to oznacza że:
 
 1) Ktoś ma kontrolę nad całą treścią ruchu 
 3) ... i może nas ze swojego portalu wygonić jak mu się nie podobamy
@@ -38,6 +65,8 @@ Klasyczne aplikacje społecznościowe, z których dominującą jest oczywiście 
 7) Ktoś może uznać że zamyka biznes i ma nas w...
 
 Jak sobie z tym poradzić?
+
+
 
 * Diaspora - system otwarty, ale oparty na sieci serwerów, a nie na aplikacji typu "peer to peer".
 
@@ -73,9 +102,11 @@ https://pocketnet.app/
 
 * https://gab.com/
 * http://www.grumbleton.com
+* https://rocket.chat
 * https://meetbook.pl/
 * https://urbexbook.com/
 * https://discordapp.com/
+* www.bastion.center
 
 * "Signal – otwartoźródłowa, niekomercyjna, szyfrowana aplikacja komunikacyjna dla systemów Android i iOS. Wersja desktopowa jest również dostępna dla Linuksa, macOS i Windows. Wykorzystuje Internet do wysyłania wiadomości w trybie indywidualnym i grupowym, które mogą zawierać pliki, notatki głosowe, obrazy i wideo, a także do wykonywania połączeń głosowych i wideo w trybie indywidualnym.  Signal wykorzystuje standardowe komórkowe numery telefonu jako identyfikatory i używa szyfrowania "punkt-punkt" do zabezpieczenia łączności z innymi użytkownikami Signal. Aplikacje zawierają mechanizmy, za pomocą których użytkownicy mogą niezależnie weryfikować tożsamość swoich rozmówców oraz integralność kanału przekazu informacji.  Wersja Android Signal może również opcjonalnie działać jako aplikacja SMS, dzięki czemu jej funkcjonalność jest w przybliżeniu porównywalna z iMessage.  Signal jest opracowywany przez Open Whisper Systems. Oprogramowanie klienckie udostępnione jest na wolnej i otwartej licencji GPLv3. Kod serwera publikowany jest na licencji AGPLv3. W lutym 2018 roku powołana została fundacja non-profit Signal Foundation z początkowym finansowaniem w wysokości 50 milionów dolarów." https://pl.wikipedia.org/wiki/Signal_(komunikator_internetowy) 
 
