@@ -10,6 +10,10 @@ Co we współczesnym świecie decyduje o jego kształcie?
 
 Oczywiście informacja. A ta w coraz mniejszym stopniu przepływa przez takie kanały jak papierowa prasa, radio, a nawet telewizja. 
 
+Obecnie algorytmy sterują wszystkimi codziennymi treściami online, POZA NASZĄ ŚWIADOMOŚCIĄ określając priorytety, klasyfikując, kojarząc i filtrując informacje. Czyniąc to, wywierają wpływ na kształtowanie doświadczeń użytkowników, i ich postrzeganie świata.
+Nie da się tego wpływu nawet dobrze zmierzyć bo naukowcy nie mogą ponieważ większość danych nie jest udostępniana przez scentralizowane platformy prywatne.
+http://piotrczerpak.com/algorytmy-google-7-zasad-ktore-musisz-znac/
+
 * Jedynym istotnym kanałem, w jakim będzie się to odbywało, jakkolwiek, ani prasa ani telewizja nie znikną, będzie internet. 
 * A najszerszym kanałem internetu będą media społecznościowe. 
 * Zdobyły sobie zasięgi upewniając użytkowników w przekonaniu, że są obiektywnymi narzędziami, jak firmy telekomunikacyjne. Tyle że po tym, jak namówiły miliardy osób do założenia sobie telefonów, 
@@ -49,10 +53,14 @@ Poważnym ograniczeniem technicznym dla systemu społecznościowego peer2peer je
 Istnieją co prawda techniki obchodzenia tych zabezpieczeń, ale skuteczne najwyżej w 80% systemów i kłopotliwe - wymagają serwerów pośredniczących w  nawiązywaniu połączenia dostępnych w głównej przestrzeni adresowej i jednoczesnej aktywności klientów na tym samym serwerze.
 https://bford.info/pub/net/p2pnat/
 
+M. Holdrege and P. Srisuresh.
+Protocol complications with the IP network address translator, January 2001.
+RFC 3027.
+"Whole pouching" for UDP: http://www.alumni.caltech.edu/~dank/peer-nat.html.
 
 ## RÓŻNE POMYSŁY
 
-* Klasyczne aplikacje społecznościowe, z których dominującą jest oczywiście Facebook mają jedną poważną wadę - zależne są od firmowych serwerów, a to oznacza że:
+* Klasyczne aplikacje społecznościowe, z których dominującą jest oczywiście _Facebook_ mają jedną poważną wadę - zależne są od firmowych serwerów, a to oznacza że:
 
 1) Ktoś ma kontrolę nad całą treścią ruchu 
 3) ... i może nas ze swojego portalu wygonić jak mu się nie podobamy
@@ -63,6 +71,9 @@ https://bford.info/pub/net/p2pnat/
 
 Jak sobie z tym poradzić?
 
+* Nowy system społecznościowy związany ze społecznością blockchainu może realizować część powyższych wymagań lub posłużyć do czegoś
+
+https://pocketnet.app/about
 
 
 * Diaspora - system otwarty, ale oparty na sieci serwerów, a nie na aplikacji typu "peer to peer".
@@ -72,16 +83,19 @@ https://en.wikipedia.org/wiki/Diaspora_(social_network)
 https://diasporafoundation.org/
 
 
-* Nowy system społecznościowy związany ze społecznością blockchainu może realizować część powyższych wymagań lub posłużyć do czegoś
-
-https://pocketnet.app/about
-
 * Mastodon - Mastodon posiada funkcjonalność mikrobloga zbliżoną do Twittera, lecz w przeciwieństwie do typowej platformy software as a service, nie jest centralnie hostowana. Każdy użytkownik jest zarejestrowany na określonym, niezależnie zarządzanym serwerze.
 (...) Każdy serwer ma swój regulamin, kodeks postępowania i politykę moderacyjną. Cecha ta odróżnia platformę od scentralizowanych sieci społecznościowych – pozwala bowiem użytkownikom na wybór serwera, z którego polityką zgadzają się, bez utraty dostępu do sieci Mastodona.
 
 https://pl.wikipedia.org/wiki/Mastodon_(aplikacja_internetowa)
 
-Fediwersum (zlepek słów federacja i uniwersum) – nieformalna nazwa federacji serwisów mikroblogowych korzystających z ustandardyzowanego protokołu OStatus lub ActivityPub. Działają one niezależnie od siebie, lecz pozwalają na interakcję pomiędzy użytkownikami innych serwerów[1].
+https://mastodon.social/about
+
+* Pleroma - tutaj jest poradnik jak można postawić plerome na własnym serwerze, oczywiście istnieją też publiczne serwery, które potrafią się ze sobą komunikować więc można widzieć materiał ze wszystkich serwerów pleroma. Pleroma jest na androida.
+https://docs.pleroma.social/backend/installation/otp_en/
+
+https://pleroma.social/#featured-instances - publiczne instancje pleromy
+
+* Fediwersum (zlepek słów federacja i uniwersum) – nieformalna nazwa federacji serwisów mikroblogowych korzystających z ustandardyzowanego protokołu OStatus lub ActivityPub. Działają one niezależnie od siebie, lecz pozwalają na interakcję pomiędzy użytkownikami innych serwerów[1].
 
 Fediwersum jest oparte na wolnym oprogramowaniu. Większość jego członków to serwisy wzorowane na Twitterze, lecz niektóre, o większej funkcjonalności, są zbliżone do Facebooka lub Google+.
 
@@ -90,10 +104,10 @@ Do oprogramowania serwisów społecznościowych mogącego łączyć się z Fediw
 - Diaspora
 - Friendica (dawniej Mistpark)
 - Hubzilla[2]
-- Mastodon
+- Mastodon (https://mastodon.social/about)
 - Misskey
 - PeerTube
-- Pleroma
+- Pleroma (https://pleroma.social/#featured-instances)
 - GNU Social (do 2013 roku StatusNet)
 - PostActiv[3] (fork GNU Social)
 
@@ -135,6 +149,9 @@ https://pocketnet.app/
 https://trybawaryjny.pl/dysk-chmura-aplikacje/
 
 * Szyfrowanie:
+Jeszcze nie było takiej tarczy na którą nie znalazł by się miecz. Ale być może w tym wypadku miecz będzie zbyt kosztowny...
+
+https://www.quantamagazine.org/how-the-evercrypt-library-creates-hacker-proof-cryptography-20190402/
 
 https://www.researchgate.net/post/3_DES_Encryption_and_Decryption_Code_in_C_and_Python
 
@@ -154,6 +171,8 @@ Link do "społeczności" na _G+_:
 
 https://plus.google.com/communities/107225354537883894305 (obsolete)
 
+Electronic Frontier Foundation – założona w lipcu 1990 roku w Stanach Zjednoczonych organizacja pozarządowa mająca na celu walkę o wolności obywatelskie (takie jak prawo do anonimowości, prywatności i wolności słowa) w elektronicznym świecie (prawa cyfrowe). Jej twórcami są Mitch Kapor, John Gilmore i John Perry Barlow.
+https://pl.wikipedia.org/wiki/Electronic_Frontier_Foundation
 
 ## TECHNIKALIA
 
