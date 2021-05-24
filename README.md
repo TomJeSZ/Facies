@@ -26,8 +26,8 @@ https://www.tysol.pl/a35304-Krysztopa-Glupie-panstwa-w-koncu-zostaniecie-skorupk
 
 ## Założenia systemu (nazwa robocza projektu: "Facies")
 
-1) PEER TO PEER - czyli żadnych centralnych serwerów, nawet lokalnych jak w przypadku *Diaspory. Za całość działania systemu odpowiada aplikacja kliento-serwera działająca na komputerze lub telefonie/tablecie użytkownika.
-2) OPEN SOURCE - cały kod jest jawny i zarządzany przez społeczność programistów. Używane są tylko otwarte standardy: HTML, XML i standardowe, niezależne od konkretnych firm i patentów języki programowania: C/C++ , ewentualnie JAVA (z przyczyn praktycznych - aplikacje C++ na Androida mogą sprawiać problemy użytkownikom)
+1) *PEER TO PEER* - czyli żadnych centralnych serwerów, nawet lokalnych jak w przypadku *Diaspory. Za całość działania systemu odpowiada aplikacja kliento-serwera działająca na komputerze lub telefonie/tablecie użytkownika.
+2) *OPEN SOURCE* - cały kod jest jawny i zarządzany przez społeczność programistów. Używane są tylko otwarte standardy: HTML, XML i standardowe, niezależne od konkretnych firm i patentów języki programowania: C/C++ , ewentualnie JAVA (z przyczyn praktycznych - aplikacje C++ na Androida mogą sprawiać problemy użytkownikom)
 3) SZYFROWANIE (PGP?) - ściśle zdefiniowana prywatność-publiczność komunikacji z szyfrowaniem metodą kluczy publicznych. Posty publiczne są podpisywane, posty skierowane do konkretnych użytkowników lub grup szyfrowane ich kluczami publicznymi, więc czytelne tylko dla nich.
 4) BEZPŁATNY I BEZ SPAMU - Tak jak Linux, ten system społecznościowy nie jest nastawiony na zarabianie pieniędzy przez społeczność jej twórców. Jest wspólną platformą jak e-mail, ale zrobioną tak by jedynie użytkownik decydował jakie informacje chce widzieć
 5) "WOLNOĆ TOMKU W SWOIM DOMKU" - użytkownik decyduje nie tylko co chce oglądać, ale też jakie tematy komunikatów publicznych przechowuje i przekazuje dalej jego osobisty kliento-serwer
@@ -43,20 +43,20 @@ https://www.tysol.pl/a35304-Krysztopa-Glupie-panstwa-w-koncu-zostaniecie-skorupk
 5) Mogą istnieć  szyfrowane metodą klucza publicznego zasoby grup użytkowników, ale nie muszą być one sprecyzowane tematycznie. 
 6) Zamiast grup i stron tematycznych istnieje HIERARCHICZNY system  tagowania i filtrowania wspierany przez AI znającą aktualny stan słownika tagów. 
 Takimi tagami może być np. #TECHNOLOGIA czy #HISTORIA czy #POLSKA, ale też #OFERTA czy #REKLAMA. Użytkownik ogląda tylko to co pasuje to filtrów jakie sobie w danym momencie ustawi. Jak potrzebuje coś kupić to może sobie stworzyć filtr z tagami #OFERTA i #REKLAMA i odpowiednią kategorią produktu np. #LODÓWKA #AAA+ a system sam odnajdzie co trzeba.
-
-https://www.facebook.com/groups/141043869907657/permalink/615293175816055/
+  - https://www.facebook.com/groups/141043869907657/permalink/615293175816055/
 
 
 ## Problem fragmentacji przestrzeni IP
 
 Poważnym ograniczeniem technicznym dla systemu społecznościowego peer2peer jest aktualna architektura adresowa internetu używająca NAT (network address translation) zaprojektowana pod kątem aplikacji klient-serwer.
 Istnieją co prawda techniki obchodzenia tych zabezpieczeń, ale skuteczne najwyżej w 80% systemów i kłopotliwe - wymagają serwerów pośredniczących w  nawiązywaniu połączenia dostępnych w głównej przestrzeni adresowej i jednoczesnej aktywności klientów na tym samym serwerze.
-https://bford.info/pub/net/p2pnat/
+  - https://bford.info/pub/net/p2pnat/
 
 M. Holdrege and P. Srisuresh.
 Protocol complications with the IP network address translator, January 2001.
 RFC 3027.
-"Whole pouching" for UDP: http://www.alumni.caltech.edu/~dank/peer-nat.html.
+"Whole pouching" for UDP: 
+  - http://www.alumni.caltech.edu/~dank/peer-nat.html.
 
 ## RÓŻNE POMYSŁY
 
@@ -71,43 +71,36 @@ RFC 3027.
 Jak sobie z tym poradzić?
 
 * Nowy system społecznościowy związany ze społecznością blockchainu może realizować część powyższych wymagań lub posłużyć do czegoś
-- https://pocketnet.app/about
-
+  - https://pocketnet.app/about
 
 * Diaspora - system otwarty, ale oparty na sieci serwerów, a nie na aplikacji typu "peer to peer".
--- https://en.wikipedia.org/wiki/Diaspora_(social_network)
--- https://diasporafoundation.org/
+  - https://en.wikipedia.org/wiki/Diaspora_(social_network)
+  - https://diasporafoundation.org/
 
 
-* Mastodon - Mastodon posiada funkcjonalność mikrobloga zbliżoną do Twittera, lecz w przeciwieństwie do typowej platformy software as a service, nie jest centralnie hostowana. Każdy użytkownik jest zarejestrowany na określonym, niezależnie zarządzanym serwerze.
+* Mastodon - posiada funkcjonalność mikrobloga zbliżoną do Twittera, lecz w przeciwieństwie do typowej platformy software as a service, nie jest centralnie hostowana. Każdy użytkownik jest zarejestrowany na określonym, niezależnie zarządzanym serwerze.
 (...) Każdy serwer ma swój regulamin, kodeks postępowania i politykę moderacyjną. Cecha ta odróżnia platformę od scentralizowanych sieci społecznościowych – pozwala bowiem użytkownikom na wybór serwera, z którego polityką zgadzają się, bez utraty dostępu do sieci Mastodona.
+  - https://pl.wikipedia.org/wiki/Mastodon_(aplikacja_internetowa)
+  - https://mastodon.social/about
 
-https://pl.wikipedia.org/wiki/Mastodon_(aplikacja_internetowa)
-
-https://mastodon.social/about
-
-* Pleroma - tutaj jest poradnik jak można postawić plerome na własnym serwerze, oczywiście istnieją też publiczne serwery, które potrafią się ze sobą komunikować więc można widzieć materiał ze wszystkich serwerów pleroma. Pleroma jest na androida.
-https://docs.pleroma.social/backend/installation/otp_en/
-
-https://pleroma.social/#featured-instances - publiczne instancje pleromy
+* Pleroma - tutaj jest poradnik jak można postawić plerome na własnym serwerze, oczywiście istnieją też publiczne serwery, które potrafią się ze sobą komunikować więc można widzieć materiał ze wszystkich serwerów pleroma. Pleroma jest na Androida.
+  - https://docs.pleroma.social/backend/installation/otp_en/
+  - https://pleroma.social/#featured-instances - publiczne instancje pleromy
 
 * Fediwersum (zlepek słów federacja i uniwersum) – nieformalna nazwa federacji serwisów mikroblogowych korzystających z ustandardyzowanego protokołu OStatus lub ActivityPub. Działają one niezależnie od siebie, lecz pozwalają na interakcję pomiędzy użytkownikami innych serwerów[1].
 
-Fediwersum jest oparte na wolnym oprogramowaniu. Większość jego członków to serwisy wzorowane na Twitterze, lecz niektóre, o większej funkcjonalności, są zbliżone do Facebooka lub Google+.
+Fediwersum jest oparte na wolnym oprogramowaniu. Większość jego członków to serwisy wzorowane na Twitterze, lecz niektóre, o większej funkcjonalności, są zbliżone do Facebooka lub Google+ ( https://pl.wikipedia.org/wiki/Fediwersum )
 
 Do oprogramowania serwisów społecznościowych mogącego łączyć się z Fediwersum należą:
-
-- Diaspora
-- Friendica (dawniej Mistpark)
-- Hubzilla[2]
-- Mastodon (https://mastodon.social/about)
-- Misskey
-- PeerTube
-- Pleroma (https://pleroma.social/#featured-instances)
-- GNU Social (do 2013 roku StatusNet)
-- PostActiv[3] (fork GNU Social)
-
-https://pl.wikipedia.org/wiki/Fediwersum
+  - Diaspora
+  - Friendica (dawniej Mistpark)
+  - Hubzilla[2]
+  - Mastodon (https://mastodon.social/about)
+  - Misskey
+  - PeerTube
+  - Pleroma (https://pleroma.social/#featured-instances)
+  - GNU Social (do 2013 roku StatusNet)
+  - PostActiv[3] (fork GNU Social)
 
 * Do zastosowań także biznesowych:
 "czaty indywidualne, grupowe, + video i dzielenie ekranów; historia rozmów, wgrywanie plików, apka mobilna, pokazywanie statusu usera na daną chwilę, okazjonalne udostępnianie pokoi ludziom spoza zespołu; przyda się integracja z Jira, Confluence i Hubspot"
@@ -115,41 +108,32 @@ Kompatybilność ze Slack i msOffice też by się przydała.
 https://www.facebook.com/jan.zajac.75/posts/2055670797797279?comment_id=2056048147759544&reply_comment_id=2056839197680439&comment_tracking=%7B%22tn%22%3A%22R9%22%7D
 
 * Strona firmy INRUPT zajmującej się wprowadzaniem w życie pomysły Timbl'a na nowy internet.
-
-https://www.facebook.com/Inrupt-492910561205850/
+  - https://www.facebook.com/Inrupt-492910561205850/
 
 *  #TELEGRAM
-
-https://telegram.org/
-
-https://www.facebook.com/groups/141043869907657/permalink/526060444739329/
-
-https://pl.wikipedia.org/wiki/Pawie%C5%82_Durow
-
-* A to się może przyda?
-
-https://pocketnet.app/
-
-* https://gab.com/
-* http://www.grumbleton.com
-* https://rocket.chat
-* https://meetbook.pl/
-* https://urbexbook.com/
-* https://discordapp.com/
-* www.bastion.center
+  - https://telegram.org/
+  - https://www.facebook.com/groups/141043869907657/permalink/526060444739329/
+  - https://pl.wikipedia.org/wiki/Pawie%C5%82_Durow
 
 * "Signal – otwartoźródłowa, niekomercyjna, szyfrowana aplikacja komunikacyjna dla systemów Android i iOS. Wersja desktopowa jest również dostępna dla Linuksa, macOS i Windows. Wykorzystuje Internet do wysyłania wiadomości w trybie indywidualnym i grupowym, które mogą zawierać pliki, notatki głosowe, obrazy i wideo, a także do wykonywania połączeń głosowych i wideo w trybie indywidualnym.  Signal wykorzystuje standardowe komórkowe numery telefonu jako identyfikatory i używa szyfrowania "punkt-punkt" do zabezpieczenia łączności z innymi użytkownikami Signal. Aplikacje zawierają mechanizmy, za pomocą których użytkownicy mogą niezależnie weryfikować tożsamość swoich rozmówców oraz integralność kanału przekazu informacji.  Wersja Android Signal może również opcjonalnie działać jako aplikacja SMS, dzięki czemu jej funkcjonalność jest w przybliżeniu porównywalna z iMessage.  Signal jest opracowywany przez Open Whisper Systems. Oprogramowanie klienckie udostępnione jest na wolnej i otwartej licencji GPLv3. Kod serwera publikowany jest na licencji AGPLv3. W lutym 2018 roku powołana została fundacja non-profit Signal Foundation z początkowym finansowaniem w wysokości 50 milionów dolarów." https://pl.wikipedia.org/wiki/Signal_(komunikator_internetowy) 
 
-* Rożne chmury:
+* A to się może przyda?
+  * https://pocketnet.app/
+  * https://gab.com/
+  * http://www.grumbleton.com
+  * https://rocket.chat
+  * https://meetbook.pl/
+  * https://urbexbook.com/
+  * https://discordapp.com/
+  * www.bastion.center
 
-https://trybawaryjny.pl/dysk-chmura-aplikacje/
+* Rożne chmury:
+  - https://trybawaryjny.pl/dysk-chmura-aplikacje/
 
 * Szyfrowanie:
 Jeszcze nie było takiej tarczy na którą nie znalazł by się miecz. Ale być może w tym wypadku miecz będzie zbyt kosztowny...
-
-https://www.quantamagazine.org/how-the-evercrypt-library-creates-hacker-proof-cryptography-20190402/
-
-https://www.researchgate.net/post/3_DES_Encryption_and_Decryption_Code_in_C_and_Python
+  - https://www.quantamagazine.org/how-the-evercrypt-library-creates-hacker-proof-cryptography-20190402/
+  - https://www.researchgate.net/post/3_DES_Encryption_and_Decryption_Code_in_C_and_Python
 
 ## WAŻNE LINKI
 
