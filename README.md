@@ -4,6 +4,22 @@ Facies P2P social network (top level README)
 ================================================================
 #opensocialmedia #peer2peer #opensource #pgp #free #freedom #openaccess #privacy #ownership
 
+## Tło zadania
+
+Co we współczesnym świecie decyduje o jego kształcie? 
+
+Oczywiście informacja. A ta w coraz mniejszym stopniu przepływa przez takie kanały jak papierowa prasa, radio, a nawet telewizja. 
+
+* Jedynym istotnym kanałem, w jakim będzie się to odbywało, jakkolwiek, ani prasa ani telewizja nie znikną, będzie internet. 
+* A najszerszym kanałem internetu będą media społecznościowe. 
+* Zdobyły sobie zasięgi upewniając użytkowników w przekonaniu, że są obiektywnymi narzędziami, jak firmy telekomunikacyjne. Tyle że po tym, jak namówiły miliardy osób do założenia sobie telefonów, 
+* zaczęły wyłączać rozmowy tym, których treści rozmów im się z powodów ideologicznych nie podobają, 
+* a samą treść, z czego nie wszyscy zdają sobie sprawę, uznały za swoją własność. 
+
+I tak scenariusz powieści Orwella "1984" zaczął stawać się rzeczywistością. 
+
+https://www.tysol.pl/a35304-Krysztopa-Glupie-panstwa-w-koncu-zostaniecie-skorupkami-wypelnionymi-trescia-FB-Google-i-TT
+
 ## Założenia systemu (nazwa robocza projektu: "Facies")
 
 1) PEER TO PEER - czyli żadnych centralnych serwerów, nawet lokalnych jak w przypadku *Diaspory. Za całość działania systemu odpowiada aplikacja kliento-serwera działająca na komputerze lub telefonie/tablecie użytkownika.
@@ -26,25 +42,6 @@ Takimi tagami może być np. #TECHNOLOGIA czy #HISTORIA czy #POLSKA, ale też #O
 
 https://www.facebook.com/groups/141043869907657/permalink/615293175816055/
 
-## Tło problemu
-
-Co we współczesnym świecie decyduje o jego kształcie? 
-
-Oczywiście informacja. A ta w coraz mniejszym stopniu przepływa przez takie kanały jak papierowa prasa, radio, a nawet telewizja. 
-
-* Jedynym istotnym kanałem, w jakim będzie się to odbywało, jakkolwiek, ani prasa ani telewizja nie znikną, będzie internet. 
-
-* A najszerszym kanałem internetu będą media społecznościowe. 
-
-* Zdobyły sobie zasięgi upewniając użytkowników w przekonaniu, że są obiektywnymi narzędziami, jak firmy telekomunikacyjne. Tyle że po tym, jak namówiły miliardy osób do założenia sobie telefonów, 
-
-* zaczęły wyłączać rozmowy tym, których treści rozmów im się z powodów ideologicznych nie podobają, 
-
-* a samą treść, z czego nie wszyscy zdają sobie sprawę, uznały za swoją własność. 
-
-I tak scenariusz powieści Orwella "1984" zaczął stawać się rzeczywistością. 
-
-https://www.tysol.pl/a35304-Krysztopa-Glupie-panstwa-w-koncu-zostaniecie-skorupkami-wypelnionymi-trescia-FB-Google-i-TT
 
 ## Problem fragmentacji przestrzeni IP
 
@@ -127,7 +124,7 @@ https://sites.google.com/view/fasada-cpp/
 https://www.facebook.com/groups/2264490537177429/
 
 Link do grupy na _Facebooku_: 
-
+Tło zadania
 https://www.facebook.com/groups/141043869907657/permalink/141998329812211/
 
 Link do "społeczności" na _G+_: 
