@@ -76,6 +76,29 @@ https://diasporafoundation.org/
 
 https://pocketnet.app/about
 
+* Mastodon - Mastodon posiada funkcjonalność mikrobloga zbliżoną do Twittera, lecz w przeciwieństwie do typowej platformy software as a service, nie jest centralnie hostowana. Każdy użytkownik jest zarejestrowany na określonym, niezależnie zarządzanym serwerze.
+(...) Każdy serwer ma swój regulamin, kodeks postępowania i politykę moderacyjną. Cecha ta odróżnia platformę od scentralizowanych sieci społecznościowych – pozwala bowiem użytkownikom na wybór serwera, z którego polityką zgadzają się, bez utraty dostępu do sieci Mastodona.
+
+https://pl.wikipedia.org/wiki/Mastodon_(aplikacja_internetowa)
+
+Fediwersum (zlepek słów federacja i uniwersum) – nieformalna nazwa federacji serwisów mikroblogowych korzystających z ustandardyzowanego protokołu OStatus lub ActivityPub. Działają one niezależnie od siebie, lecz pozwalają na interakcję pomiędzy użytkownikami innych serwerów[1].
+
+Fediwersum jest oparte na wolnym oprogramowaniu. Większość jego członków to serwisy wzorowane na Twitterze, lecz niektóre, o większej funkcjonalności, są zbliżone do Facebooka lub Google+.
+
+Do oprogramowania serwisów społecznościowych mogącego łączyć się z Fediwersum należą:
+
+- Diaspora
+- Friendica (dawniej Mistpark)
+- Hubzilla[2]
+- Mastodon
+- Misskey
+- PeerTube
+- Pleroma
+- GNU Social (do 2013 roku StatusNet)
+- PostActiv[3] (fork GNU Social)
+
+https://pl.wikipedia.org/wiki/Fediwersum
+
 * Do zastosowań także biznesowych:
 "czaty indywidualne, grupowe, + video i dzielenie ekranów; historia rozmów, wgrywanie plików, apka mobilna, pokazywanie statusu usera na daną chwilę, okazjonalne udostępnianie pokoi ludziom spoza zespołu; przyda się integracja z Jira, Confluence i Hubspot"
 Kompatybilność ze Slack i msOffice też by się przydała.
