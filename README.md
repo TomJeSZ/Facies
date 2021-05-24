@@ -4,8 +4,7 @@ Facies P2P social network (top level README)
 ================================================================
 #opensocialmedia #peer2peer #opensource #pgp #free #freedom #openaccess #privacy #ownership
 
-Założenia systemu (nazwa robocza projektu: "Facies")
-----------------------------------------------------
+##Założenia systemu (nazwa robocza projektu: "Facies")
 
 1) PEER TO PEER - czyli żadnych centralnych serwerów, nawet lokalnych jak w przypadku *Diaspory. Za całość działania systemu odpowiada aplikacja kliento-serwera działająca na komputerze lub telefonie/tablecie użytkownika.
 2) OPEN SOURCE - cały kod jest jawny i zarządzany przez społeczność programistów. Używane są tylko otwarte standardy: HTML, XML i standardowe, niezależne od konkretnych firm i patentów języki programowania: C/C++ , ewentualnie JAVA (z przyczyn praktycznych - aplikacje C++ na Androida mogą sprawiać problemy użytkownikom)
@@ -15,7 +14,16 @@ Założenia systemu (nazwa robocza projektu: "Facies")
 6) OTWARTE OCENY - oceny użytkowników dotyczące innych użytkowników są publiczną informacją, z której każdy może korzystać, ale nie musi. Może też podobnie jak w przypadku innych komunikatów w pełni określić swoje preferencje - ocenom jakich grup ufa i bierze je pod uwagę, a które ignoruje.
 7) NIEOGRANICZONY PRZEPŁYW ZASOBÓW SPOŁECZNOŚCIOWYCH - przynajmniej jednokierunkowe spięcie systemu z istniejącymi portalami społecznościowymi - to co użytkownik pisze na Facebooku, Twitterze, LinkedIn, ResearchGate etc. może być także automatycznie udostępniane za pośrednictwem systemu. Także komentarze w tych systemach są śledzone i linkowane do postu. Zapis postów w jednolitym otwartym kodzie (JSON lub alternatywnie XML) może z czasem służyć wypromowaniu standardu wymiany informacji między portalami społecznościowymi, co pozwoli na włączenie starszych sieci społecznościowych do systemu na równych zasadach. 
 
-Alternatywny opis do władzy użytkowika nad swoimi zasobami: 
+## Władza użytkowika nad swoimi zasobami
+
+1) Każdy użytkownik ma swój adres - identyfikator światowy, stąd książki znajomych są jak książki adresowe e-mail własnością użytkownika, a nie portalu, z którego on korzysta
+2) Użytkownik może zarządzać i przechowywać swoje zasoby społecznościowe na własnym serwerze, lub w chmurze, oraz na dowolnej liczbie serwerów dostarczanych przez dostawców usługi
+3) Każdy zasób ("post" czy "komentarz") ma indywidualny identyfikator powiązany z osobą twórcy i może być pobrany za pośrednictwem dowolnego serwera (lub innego użytkownika), który ma go w swoich zasobach. Na żądanie system poszukuje danego zasobu w miarę możliwości do skutku.
+4) Tylko sam użytkownik może zadecydować jakie zasoby przechowuje oraz udostępnia dalej. Może usuwać z nich poszczególne posty lub autorów/użytkowników, którzy mu nie pasują, ale efekt ogranicza się do niego i osób, które korzystają z jego zasobów.
+5) Mogą istnieć  szyfrowane metodą klucza publicznego zasoby grup użytkowników, ale nie muszą być one sprecyzowane tematycznie. 
+6) Zamiast grup i stron tematycznych istnieje HIERARCHICZNY system  tagowania i filtrowania wspierany przez AI znającą aktualny stan słownika tagów. 
+Takimi tagami może być np. #TECHNOLOGIA czy #HISTORIA czy #POLSKA, ale też #OFERTA czy #REKLAMA. Użytkownik ogląda tylko to co pasuje to filtrów jakie sobie w danym momencie ustawi. Jak potrzebuje coś kupić to może sobie stworzyć filtr z tagami #OFERTA i #REKLAMA i odpowiednią kategorią produktu np. #LODÓWKA #AAA+ a system sam odnajdzie co trzeba.
+
 https://www.facebook.com/groups/141043869907657/permalink/615293175816055/
 
 ## POMYSŁY
