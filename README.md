@@ -61,7 +61,6 @@ RFC 3027.
 ## RÓŻNE POMYSŁY
 
 * Klasyczne aplikacje społecznościowe, z których dominującą jest oczywiście _Facebook_ mają jedną poważną wadę - zależne są od firmowych serwerów, a to oznacza że:
-
 1) Ktoś ma kontrolę nad całą treścią ruchu 
 3) ... i może nas ze swojego portalu wygonić jak mu się nie podobamy
 4) Ktoś inny może nas łatwo odciąć fizycznie od tych serwerów
@@ -72,15 +71,12 @@ RFC 3027.
 Jak sobie z tym poradzić?
 
 * Nowy system społecznościowy związany ze społecznością blockchainu może realizować część powyższych wymagań lub posłużyć do czegoś
-
-https://pocketnet.app/about
+- https://pocketnet.app/about
 
 
 * Diaspora - system otwarty, ale oparty na sieci serwerów, a nie na aplikacji typu "peer to peer".
-
-https://en.wikipedia.org/wiki/Diaspora_(social_network)
-
-https://diasporafoundation.org/
+-- https://en.wikipedia.org/wiki/Diaspora_(social_network)
+-- https://diasporafoundation.org/
 
 
 * Mastodon - Mastodon posiada funkcjonalność mikrobloga zbliżoną do Twittera, lecz w przeciwieństwie do typowej platformy software as a service, nie jest centralnie hostowana. Każdy użytkownik jest zarejestrowany na określonym, niezależnie zarządzanym serwerze.
