@@ -1,0 +1,3 @@
+#!/bin/bash
+#FINISHING FASADA - WHEN WWWSERVER STOPS, ALL ATHERS PARTS ALSO EXIT
+firefox "http:localhost:8080/!!!!"
